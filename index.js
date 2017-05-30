@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const cron = require('cron').CronJob;
-const token = "339679154:AAEXP4EgPH1pmm9poA7N_Xwi1cIHOAoujK0";
+const token = "***";
 var bot = new TelegramBot(token, {polling: true,});
 
 bot.on('message', function(msg)
